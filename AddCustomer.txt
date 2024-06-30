@@ -38,8 +38,17 @@ AddCustomer "", "Nancy", "Smith", "Abc st", "Nun", "Ontario", "T7L1C9", "(416)45
 ''Invalid inpui-missing last name
 AddCustomer "0000007", "Julia","", "1100 Sunset blvd", "Edson", "Alberta", "T7L1C8", "(588)469-1237", "jr@sample.com"
 
+''Valid input
+AddCustomer "0000008", "Jhon", "Snow", "1234 South park blvd", "Linden", "Alberta",
+"T7l2G6", "(588)567-6754", "js@sample.com"
 
+''Valid input
+AddCustomer "00000009", "Maria","Stuart", "King ave", "Ottawa", "Alberta",
+"(416)678-2398", "ms@sample.com
 
+''Valid input
+AddCustomer "0000011", "Otto", "Wolffson", "Woods st", "Banff", "Alberta", 
+"(416)469-4567", "ow@sample.com"
 
 
 
