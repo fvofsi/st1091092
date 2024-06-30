@@ -24,6 +24,7 @@
 
 
 ''SCRIPT
+""To test new ideas"
 
 ''Valid input
 AddCustomer "0000005", "Julia", "Roberts", "1100 Sunset blvd", "Edson", "Alberta", "T7L1C8", "(588)469-1234", "jr@sample.com"
