@@ -51,5 +51,7 @@ AddCustomer "00000009", "Maria","Stuart", "King ave", "Ottawa", "Alberta",
 AddCustomer "0000011", "Otto", "Wolffson", "Woods st", "Banff", "Alberta", 
 "(416)469-4567", "ow@sample.com"
 
-
+''Valid input
+AddCustomer "0000012", "Max", "Fray",  "Ottawa st", "Vancouver", "British Columbia",
+"(604)333-8734", "mf@sample.com"
 
