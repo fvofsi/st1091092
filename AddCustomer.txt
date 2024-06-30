@@ -1,0 +1,45 @@
+'*****************************************************************************
+
+'' ABC Automated Testing
+'' Copyright (c) 2024 ABC
+'' All Rights Reserved Worldwide
+'' Unauthorized Duplication or Distribution Prohibited
+'' *****************************************************************************
+'' FILENAME: addcustomer
+'' *****************************************************************************
+'' ABOUT THIS FILE 
+
+'' AUTHOR IDENTITY:
+
+'' Initials		Name/Company
+'' --------		-----------------------------------------
+'' rw 			Rick Wagonner ABC INC
+
+'' REVISION HISTORY:
+
+'' Date/Initials	Comments
+'' ---------		-------------------------------
+
+'' 01/10/2024  rw	Created for LoanApp 3.1
+
+
+''SCRIPT
+
+''Valid input
+AddCustomer "0000005", "Julia", "Roberts", "1100 Sunset blvd", "Edson", "Alberta", "T7L1C8", "(588)469-1234", "jr@sample.com"
+
+''Invalid inpui-missing first name
+AddCustomer "0000006", "", "Roberts", "1100 Sunset blvd", "Edson", "Alberta", "T7L1C8", "(588)469-1236", "jr@sample.com"
+
+''Invalid input -missing Account
+AddCustomer "", "Nancy", "Smith", "Abc st", "Nun", "Ontario", "T7L1C9", "(416)456-0000", "nsmith@sample.com"
+
+
+''Invalid inpui-missing last name
+AddCustomer "0000007", "Julia","", "1100 Sunset blvd", "Edson", "Alberta", "T7L1C8", "(588)469-1237", "jr@sample.com"
+
+
+
+
+
+
